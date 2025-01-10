@@ -9,7 +9,7 @@
   --primary-color: #323232;
   --secondary-color: #f6a013;
   --text-color: white;
-  --hover-color: #007bff;
+  --hover-color: #9b6f28;
 }
 
 body {
@@ -70,7 +70,7 @@ input {
 
 }
 .button button:hover {
-  background: var(--hover-color: #007bff);
+  background: var(--hover-color);
 }
 
 .button .side-oparator {
