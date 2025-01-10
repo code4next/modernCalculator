@@ -76,3 +76,17 @@ input {
 .button .side-oparator {
   background: var(--secondary-color);
 }
+
+
+@media (max-width: 480px) {
+  .calculator {
+    width: 250px;
+    height: 380px;
+  }
+  .button button {
+    width: 45px;
+    height: 45px;
+    font-size: 15px;
+  }
+}
+
