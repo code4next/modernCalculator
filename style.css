@@ -9,6 +9,7 @@
   --primary-color: #323232;
   --secondary-color: #f6a013;
   --text-color: white;
+  --hover-color: #007bff;
 }
 
 body {
@@ -67,6 +68,9 @@ input {
   border-radius: 50%;
   cursor: pointer;
 
+}
+.button button:hover {
+  background: var(--hover-color: #007bff);
 }
 
 .button .side-oparator {
